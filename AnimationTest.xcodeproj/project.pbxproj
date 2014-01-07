@@ -21,6 +21,7 @@
 		00F77149187C079D0040B438 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F7712B187C079D0040B438 /* UIKit.framework */; };
 		00F77151187C079D0040B438 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00F7714F187C079D0040B438 /* InfoPlist.strings */; };
 		00F77153187C079D0040B438 /* AnimationTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F77152187C079D0040B438 /* AnimationTestTests.m */; };
+		00F7715D187C0BEE0040B438 /* car1.png in Resources */ = {isa = PBXBuildFile; fileRef = 00F7715C187C0BEE0040B438 /* car1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		00F7714E187C079D0040B438 /* AnimationTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnimationTestTests-Info.plist"; sourceTree = "<group>"; };
 		00F77150187C079D0040B438 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00F77152187C079D0040B438 /* AnimationTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnimationTestTests.m; sourceTree = "<group>"; };
+		00F7715C187C0BEE0040B438 /* car1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 				00F77139187C079D0040B438 /* Main.storyboard */,
 				00F7713C187C079D0040B438 /* ViewController.h */,
 				00F7713D187C079D0040B438 /* ViewController.m */,
+				00F7715C187C0BEE0040B438 /* car1.png */,
 				00F7713F187C079D0040B438 /* Images.xcassets */,
 				00F7712E187C079D0040B438 /* Supporting Files */,
 			);
@@ -230,6 +233,7 @@
 			files = (
 				00F77140187C079D0040B438 /* Images.xcassets in Resources */,
 				00F77132187C079D0040B438 /* InfoPlist.strings in Resources */,
+				00F7715D187C0BEE0040B438 /* car1.png in Resources */,
 				00F7713B187C079D0040B438 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
