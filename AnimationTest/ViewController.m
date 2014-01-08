@@ -26,9 +26,9 @@
     self.imageView.backgroundColor = [UIColor whiteColor];
     
     [UIView commitAnimations];
-    
+    /*
     [UIView animateWithDuration:1.0 animations:^{self.imageView.backgroundColor = [UIColor whiteColor];} completion:^(BOOL finished){[UIView animateWithDuration:1.0 animations:^{self.imageView.backgroundColor = [UIColor clearColor];}];
-    }];
+    }];*/
     
 }
 
@@ -52,13 +52,14 @@
     moveFlag = !moveFlag;
     
     [UIView commitAnimations];
+    /*
     [UIView animateWithDuration:0.7 animations:^{
         if(moveFlag)
             self.imageView.center = CGPointMake(self.imageView.center.x +100, self.imageView.center.y -100);
         else
             self.imageView.center = CGPointMake(self.imageView.center.x -100, self.imageView.center.y-100);
         moveFlag = !moveFlag;
-    }];
+    }];*/
 }
 
 - (IBAction)alpha:(id)sender {
@@ -69,8 +70,8 @@
     
     self.imageView.alpha = (self.imageView.alpha == 0.0)? 1.0:0.0;
     [UIView commitAnimations];
-    
-    [UIView animateWithDuration:0.7 animations:^{self.imageView.alpha = (self.imageView.alpha == 0.0)? 1.0:0.0;}];
+    /*
+    [UIView animateWithDuration:0.7 animations:^{self.imageView.alpha = (self.imageView.alpha == 0.0)? 1.0:0.0;}];*/
 }
 
 
